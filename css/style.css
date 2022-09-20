@@ -1,0 +1,32 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:rgb(92,92,92)
+}
+h1{
+    color:white;
+    margin: 5px 1px;
+    text-align: center;
+    padding: 1px;
+}
+h2{
+    color:white;
+    margin:auto 200px;
+    text-align: center;
+}
+p   {
+    font-family: sans-serif;
+    color: white;
+}
+div {
+    background-color:rgba(0,0,0,0.6);
+    padding:10px;
+    margin:30px auto;
+    width:80vw;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
