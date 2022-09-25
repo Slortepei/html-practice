@@ -1,28 +1,31 @@
 body{
     margin:0px;
     padding:0px;
-    background: conic-gradient(#fff 5deg, #000 5deg, #fff 5deg, #000);
     background-position: 0 0;
     background-size: 100%;
+    background-color: rgb(45, 54, 54);
 }
 h1{
     color:white;
     margin: 5px 1px;
     text-align: center;
     padding: 1px;
+    text-shadow: 3px 3px 1px black;
 }
 h2{
-    color:white;
+    color:  white;
     margin:auto 200px;
     text-align: center;
+    text-shadow: 3px 3px 1px black;
 }
 p   {
     font-family: sans-serif;
     color: white;
-    
+    padding: 0px;
+    margin:0px;
 }
 div {
-    background-color:rgba(0,0,0,0.6);
+    background-color:rgb(2, 2, 2,0.6);
     padding:10px;
     margin:30px auto;
     width:80vw;
@@ -36,4 +39,49 @@ img {
 li{
     color: white;
     font-family: sans-serif;
+    padding-right: 5px;
+}
+footer{
+    text-align: center;
+    border:1px solid white;
+    background-color: rgb(2, 2, 2,0.6);
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 25px;
+}
+
+.links{
+    margin-top: 1%;
+    margin-right: 300px;
+    background-size: 5%;
+    border: 1px solid white;
+    block-size: auto;
+}
+
+.rechts{
+    border: 1px solid white;
+    margin-left: 300px;
+}
+
+header{
+    background-color:rgb(2, 2, 2,0.6);
+    padding:10px;
+    margin:30px auto;
+    width:80vw;
+    border: 1px solid white;
+    text-align: center;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
 }
